@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+rope = "*"
+autopep8 = "*"
+
+[packages]
+django = "*"
+django-heroku = "*"
+psycopg2 = "==2.7.7"
+pillow = "*"
+gunicorn = "*"
+django-filter = "*"
+validate-email = "*"
+six = "*"
+py3dns = "*"
+
+[requires]
+python_version = "3.7"
